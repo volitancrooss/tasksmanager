@@ -42,9 +42,11 @@ Para crear una tarea (Endpoint: `POST /api/tasks`), utiliza el siguiente formato
 
 ```json
 {
-    "nombre": "Alexander del Pino Pérez",
-    "numeroTarea": 1,
-    "descripcion": "Revisar la configuración del servidor MongoDB",
-    "categoria": "Soporte",
-    "prioridad": "ALTA"
+    "title": "Tarea 3",
+    "description": "otra tarea...",
+    "completed": false,
+    "priority": "ALTA",
+    "tags": ["WEB"],
+    "category": "Programación",
+    "dueDate": "2025-12-17T10:42:00"
 }
